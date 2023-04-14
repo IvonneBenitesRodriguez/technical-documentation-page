@@ -35,3 +35,21 @@ code{
 .main-section p{
     margin:20px 0;
 }
+
+@media screen and (max-width: 414px){
+    main#main-doc{
+        display: block;
+        width: 100%;
+    }
+    nav#navbar{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    h2{
+        text-align: center;
+    }
+    code{
+        line-height: 2;
+    }
+}
