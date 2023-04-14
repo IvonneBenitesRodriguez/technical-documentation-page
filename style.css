@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+    
+#navbar{
+    width: 15%;
+    float: left;
+    padding: 20px;
+}
+
+#main-doc{
+    width:85%;
+    float: left;
+    padding: 20px;
+}
+
+.navbullets li{
+list-style: none;
+padding: 10px;
+border-bottom: 1px solid;
+}
+
+.navbullets li a{
+    text-decoration: none;
+}
+
+code{
+    background-color: aliceblue;
+    margin:10px 0;
+    padding: 10px;
+}
+
+.main-section p{
+    margin:20px 0;
+}
